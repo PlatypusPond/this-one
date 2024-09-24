@@ -56,3 +56,4 @@ class GroupViewSet(viewsets.ModelViewSet):
     queryset = Group.objects.all()
     serializer_class = GroupSerializers
     permission_classes = [permissions.IsAuthenticated]
+
